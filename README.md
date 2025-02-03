@@ -5,11 +5,8 @@
 [![Swagger Docs](https://img.shields.io/badge/API-Swagger%20Docs-orange)](http://34.45.163.161:8000/docs)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.68.0+-00a393?logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Next.js](https://img.shields.io/badge/Next.js-13.0+-black?logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.0+-black?logo=next.js)](https://nextjs.org/)
 
-<div align="center">
-  <img src="https://via.placeholder.com/1200x400.png?text=LearnLab+Interactive+Learning+Platform" alt="LearnLab Banner">
-</div>
 
 ## 🎯 Key Features
 
@@ -72,11 +69,6 @@ docker-compose logs -f --tail=100
 ## 🤝 Contributing
 
 We welcome contributions! Check out our [contribution guidelines](CONTRIBUTING.md).
-
-**Good First Issues:**
-- [ ] Add dark mode support 🌓
-- [ ] Implement mobile app integration 📱 
-- [ ] Enhance PDF parsing accuracy 📄
 
 ## 📜 License
 
