@@ -33,20 +33,20 @@ services:
     networks:
       - learnlab-network
 
-  streamlit:
-    build:
-      context: ./streamlit-ui
-      target: development
-    ports:
-      - "8501:8501"
-    volumes:
-      - ./streamlit-ui:/app
-    env_file:
-      - ./streamlit-ui/.env
-    depends_on:
-      - backend
-    networks:
-      - learnlab-network
+  # streamlit:
+  #   build:
+  #     context: ./streamlit-ui
+  #     target: development
+  #   ports:
+  #     - "8501:8501"
+  #   volumes:
+  #     - ./streamlit-ui:/app
+  #   env_file:
+  #     - ./streamlit-ui/.env
+  #   depends_on:
+  #     - backend
+  #   networks:
+  #     - learnlab-network
 
   # airflow:
   #   build:
